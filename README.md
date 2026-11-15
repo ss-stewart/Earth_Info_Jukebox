@@ -17,14 +17,6 @@ python3 -m http.server 8000     # then open http://localhost:8000
 
 You can also open `index.html` directly.
 
-## Put it online (GitHub Pages)
-
-1. Create a public GitHub repository and upload these files (`index.html`, `README.md`, `SOURCES.md`, `SUBMISSION.md`, `LICENSE`, `.nojekyll`).
-2. In the repository, open **Settings → Pages**, set the source to **Deploy from a branch**, choose `main` and `/ (root)`, and save.
-3. After a minute the app is live at `https://<your-user>.github.io/<repo-name>/`. Open it and add one album from Worldview to confirm the live fetch works from the hosted page.
-
-## Add an album from Worldview
-
 Press **+ Add album**, choose a layer and a date, and press **Press album**. The page requests the whole-globe map from NASA's Worldview image service ([GIBS](https://nasa-gibs.github.io/gibs-api-docs/)) with a WMS `GetMap` request. No server of ours is involved, and nobody needs an account or an API key.
 
 - Pick **Other layer ID…** to use any layer from the [GIBS layer list](https://nasa-gibs.github.io/gibs-api-docs/available-visualizations/). Layer IDs also appear in Worldview's layer info.
