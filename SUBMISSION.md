@@ -5,7 +5,7 @@ Challenge: The Earth Information Jukebox
 Fill in the bracketed links before submitting.
 
 - Repository: https://github.com/ss-stewart/Earth_Info_Jukebox.git
-- Live demo: [your GitHub Pages URL]
+- Live demo: https://ss-stewart.github.io/Earth_Info_Jukebox/
 - Demo video: [your video URL]
 
 ## Summary
